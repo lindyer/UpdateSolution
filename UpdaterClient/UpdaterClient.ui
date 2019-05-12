@@ -1,0 +1,25 @@
+<UI version="4.0" >
+ <class>UpdaterClientClass</class>
+ <widget class="QWidget" name="UpdaterClientClass" >
+  <property name="objectName" >
+   <string notr="true">UpdaterClientClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>600</width>
+	<height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>UpdaterClient</string>
+  </property>
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="UpdaterClient.qrc"/>
+ </resources>
+ <connections/>
+</UI>

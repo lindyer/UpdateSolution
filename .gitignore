@@ -1,0 +1,7 @@
+.vs/
+**/x64/
+**/GeneratedFiles/
+**/logs/
+**/Resources
+**/cpp.hint
+**/*.user

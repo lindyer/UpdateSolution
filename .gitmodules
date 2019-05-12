@@ -1,0 +1,3 @@
+[submodule "3rd/QLib7z"]
+	path = 3rd/QLib7z
+	url = https://github.com/dushibaiyu/QLib7z.git

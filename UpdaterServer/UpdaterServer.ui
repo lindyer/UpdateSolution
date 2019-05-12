@@ -1,0 +1,25 @@
+<UI version="4.0" >
+ <class>UpdaterServerClass</class>
+ <widget class="QWidget" name="UpdaterServerClass" >
+  <property name="objectName" >
+   <string notr="true">UpdaterServerClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>600</width>
+	<height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>UpdaterServer</string>
+  </property>
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="UpdaterServer.qrc"/>
+ </resources>
+ <connections/>
+</UI>
