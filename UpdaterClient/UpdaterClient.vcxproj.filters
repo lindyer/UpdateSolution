@@ -33,45 +33,26 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="UpdaterClient.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Downloader.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Protocol.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="DirDetails.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ClientUpdater.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <QtMoc Include="UpdaterClient.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
     <QtMoc Include="Downloader.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <QtMoc Include="Protocol.h">
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="DirDetails.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-  </ItemGroup>
-  <ItemGroup>
-    <QtUic Include="UpdaterClient.ui">
-      <Filter>Form Files</Filter>
-    </QtUic>
-  </ItemGroup>
-  <ItemGroup>
-    <QtRcc Include="UpdaterClient.qrc">
-      <Filter>Resource Files</Filter>
-    </QtRcc>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="UpdaterClient.rc" />
+    <QtMoc Include="ClientUpdater.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Common\BaseType.h">
@@ -80,5 +61,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="ClientUpdater.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="ClientUpdater.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ClientUpdater.rc" />
   </ItemGroup>
 </Project>

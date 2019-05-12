@@ -4,12 +4,12 @@
 #include "ui_UpdaterClient.h"
 #include "Downloader.h"
 
-class UpdaterClient : public QWidget
+class ClientUpdater : public QWidget
 {
 	Q_OBJECT
 
 public:
-	explicit UpdaterClient(QWidget *parent = nullptr);
+	explicit ClientUpdater(QWidget *parent = nullptr);
 
 private:
 	Ui::UpdaterClientClass ui;
